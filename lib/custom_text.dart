@@ -46,9 +46,9 @@ class Customtext extends StatelessWidget {
                       controller.addressTextEditingController.text);
                 },
                 child: Text("data add")),
-
-              Text(controller.nameTextEditingController.text),
-              Text(controller.addressTextEditingController.text)
+            Text(controller.nameTextEditingController.text),
+            Text(controller.nameTextEditingController.text),
+            Text(controller.addressTextEditingController.text)
           ],
         ),
       ),
